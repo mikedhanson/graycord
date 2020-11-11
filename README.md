@@ -1,8 +1,5 @@
-# graycord
-Graylog API log parser to discord 
- 
-
 # GrayCord
+Graylog API log parser to discord 
 
 ## Graylog + Discord = GrayCord
 
