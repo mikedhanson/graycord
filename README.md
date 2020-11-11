@@ -21,19 +21,19 @@ docker pull mikehanson/graycord
 
 Variables that can be passed to docker img. 
 ```python
-PASSWORD = **None** 
-USERNAME = **None** 
-HOSTNAME = **None** 
-TOKEN = **None** 
-CHANNEL = **None** 
-PORT = **None** 
-SEARCH_QUERY = **None**  
-INTERVAL = **None** 
+PASSWORD        - Graylog password
+USERNAME        - Graylog username 
+HOSTNAME        - Graylog server ip/hostname
+TOKEN           - Discord token
+CHANNEL         - Discord channel ID
+PORT            - Graylog port (ie. 9000)
+SEARCH_QUERY    - Graylog Search query. Anything you can search on via graylog UI
+INTERVAL        - API call in seconds. Default is 10 
 ```
 
 ## Example 
 
-```python 
+```bash 
 
 sudo docker run -e PASSWORD="passwordForGrayLog" -e HOSTNAME='ip/hostname for graylog' -e TOKEN='discord-bot-token' docker_img_name
 
