@@ -1,7 +1,6 @@
 import requests    # for api calls 
 import json        # json 
-import argparse
-import os          
+import os          # Allowing ping 
 import platform    # For getting the operating system name
 import subprocess  # For executing a shell command
 import time        # for time, dummy 
