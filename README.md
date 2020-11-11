@@ -36,6 +36,15 @@ sudo docker run -e PASSWORD="passwordForGrayLog" -e HOSTNAME='ip/hostname for gr
 
 ```
 
+## Search Query Examples 
+
+```bash 
+Fortigate Logs: 
+
+1. Admin login events       - 'logdesc:"Admin login successful"'
+2. View logs rated critical - 'level:\"critical\"'
+3.  Multiple different logs  - 'logdesc:"Admin login successful" OR action:\\"tunnel\\-up\\" OR level:\"critical\"'
+```
 
 ## DockerHub 
 [https://hub.docker.com/r/mikehanson/graycord](https://hub.docker.com/r/mikehanson/graycord)
