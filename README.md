@@ -46,6 +46,9 @@ Fortigate Logs:
 3.  Multiple different logs  - 'logdesc:"Admin login successful" OR action:\\"tunnel\\-up\\" OR level:\"critical\"'
 ```
 
+## Get docker here 
+https://docs.docker.com/get-docker/
+
 ## DockerHub 
 [https://hub.docker.com/r/mikehanson/graycord](https://hub.docker.com/r/mikehanson/graycord)
 
