@@ -4,7 +4,7 @@ Graylog API log parser to discord
 ## Graylog + Discord = GrayCord
 
 #
-Graycord does a good job as a standalone syslog server but I found a shortcoming where it wasnt able to send alerts to discord. 
+Graylog does a good job as a standalone syslog server but I found a shortcoming where it wasn’t able to send alerts to discord. So, I took on the challenge to dive into python3 and learn all about docker.
 
 ## Installation
 
